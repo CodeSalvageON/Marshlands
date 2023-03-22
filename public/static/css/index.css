@@ -85,11 +85,11 @@ p {
   z-index: 100;
 }
 
-#main, #login-sec {
+#main, #login-sec, #signup-sec {
   z-index: 500;
   position: absolute;
 }
 
-#login-sec {
+#login-sec, #signup-sec {
   display: none;
 }
