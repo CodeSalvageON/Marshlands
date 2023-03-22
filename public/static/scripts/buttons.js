@@ -11,14 +11,12 @@ const loginSec = document.getElementById("login-sec");
 
 loginButton.onclick = function () {
   loadBack("/static/images/bg/antebellum.jpeg");
-  mainSec.style.display = "none";
-
-  $("#login-sec").fadeIn(1000);
+  $(mainSec).fadeOut(1000);
+  $(loginSec).fadeIn(1000);
 }
 
 loginBackButton.onclick = function () {
   loadBack("/static/images/bg/fall.jpeg");
-  loginSec.style.display = "none";
-
+  $(loginSec).fadeOut(1000);
   $(mainSec).fadeIn(1000);
 }

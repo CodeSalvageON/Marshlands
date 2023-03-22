@@ -67,6 +67,17 @@ p {
   z-index: 400;
 }
 
+.text-input {
+  outline: none;
+  border-radius: 2px;
+  border: hidden;
+  padding: 2px;
+  font-size: 2vw;
+  font-family: FSEX;
+  box-shadow: 2px 2px 5px #333333;
+  background-color: #ffecd4;
+}
+
 #cc {
   bottom: 15px;
   right: 15px;
